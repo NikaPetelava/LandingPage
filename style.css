@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.sectionOne {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+  padding: 80px 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.left h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.left p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.main-btn {
+  color: #fff;
+  background-color: #3882f6;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #eee;
+  background-color: #808080;
+  font-size: 18px;
+  width: 500px;
+  height: auto;
+}
