@@ -44,8 +44,7 @@ a {
 .sectionOne {
   display: flex;
   justify-content: space-between;
-  gap: 120px;
-  padding: 80px 20px;
+  padding: 100px 0;
 }
 
 .left {
@@ -86,5 +85,113 @@ a {
   background-color: #808080;
   font-size: 18px;
   width: 500px;
-  height: auto;
+}
+
+.sectionTwo {
+  padding: 40px 0;
+}
+
+.sectionTwo h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card p {
+  width: 200px;
+  text-align: center;
+}
+
+.sectionThree-wrapper {
+  background-color: #e5e7eb;
+}
+
+.sectionThree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  padding: 60px 0;
+  width: 800px;
+}
+
+blockquote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+figcaption {
+  text-align: right;
+}
+
+.sectionFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.action-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 40px 80px;
+  width: 1000px;
+  border-radius: 10px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.action-card p {
+  color: #e5e7eb;
+  opacity: 0.8;
+}
+
+.secondary {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  padding: 20px 0;
 }
